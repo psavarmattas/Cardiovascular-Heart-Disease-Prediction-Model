@@ -70,7 +70,7 @@ Points to keep in mind when working with a machine learning model
 
     a. KNeighborsClassifier
 
-    b. Support Vector Classification (SVC)
+    b. Linear Support Vector Classification (LinearSVC)
 
     c. Decision Tree Classifier
 
@@ -101,19 +101,17 @@ Points to keep in mind when working with a machine learning model
 2. df.head: It returns first 'n' rows.
 3. pd.info: It prints information about the dataframe.
 4. df.describe: It generates descriptive statistics.
-5. unique: It returns unique values from the dataframe.
 
 ### Data Preprocessing
 
 1. df.isnull: It detects missing values.
 2. df.drop: It drops speficied labels from rows and columns.
-3. get_dummies: It converts categorial variable into dummy/indicator variable.
-4. df.dropna: It drops coloumns and rows where null value is present.
+3. df.dropna: It drops coloumns and rows where null value is present.
 
 ### Model Building
 
 1. KNeighborsClassifier: Classifier implementing the k-nearest neighbors vote.
-2. Support Vector Classification (SVC): SVC is class capable of performing binary and multi-class classification on a dataset.
+2. Linear Support Vector Classification (LinearSVC): Similar to SVC with parameter kernel=’linear’, but implemented in terms of liblinear rather than libsvm, so it has more flexibility in the choice of penalties and loss functions and should scale better to large numbers of samples. This class supports both dense and sparse input and the multiclass support is handled according to a one-vs-the-rest scheme.
 3. Decision Tree Classifier: Decision Trees (DTs) are a non-parametric supervised learning method used for classification and regression. The goal is to create a model that predicts the value of a target variable by learning simple decision rules inferred from the data features. A tree can be seen as a piecewise constant approximation.
 4. Random Forest Classifier: A random forest is a meta estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting. The sub-sample size is controlled with the max_samples parameter if bootstrap=True (default), otherwise the whole dataset is used to build each tree.
 5. Multi-layer Perceptron classifier: This model optimizes the log-loss function using LBFGS or stochastic gradient descent.
