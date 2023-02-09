@@ -1,7 +1,7 @@
 # Cardiovascular Heart Disease Prediction Model (Stacking Model)
-`Last Updated: 08th February 2023`
+`Last Updated: 09th February 2023`
 
-### **THIS RESEARCH WILL BE PUBLISHED**
+### **THIS RESEARCH IS BEING PUBLISHED**
 
 ## Dataset Information
 
