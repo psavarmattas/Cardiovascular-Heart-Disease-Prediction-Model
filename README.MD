@@ -1,7 +1,7 @@
 # Cardiovascular Heart Disease Prediction Model (Stacking Model)
-`Last Updated: 09th February 2023`
+`Last Updated: 11th February 2023`
 
-### **THIS RESEARCH IS BEING PUBLISHED**
+### **THIS RESEARCH IS PUBLISHED PLEASE [CLICK HERE](https://ijrpr.com/uploads/V4ISSUE2/IJRPR9920.pdf) FOR READING THE PAPER**
 
 ## Dataset Information
 
@@ -44,8 +44,6 @@ Points to keep in mind when working with a machine learning model
 2. Pandas
 3. Matplotlib
 4. Scikit-Learn
-5. Seaborn
-6. Cufflinks
 
 ## Tools Needed:
 
@@ -91,9 +89,8 @@ Points to keep in mind when working with a machine learning model
 2. Pandas: Used to analyze the data.
 3. OS Module: For working with files/directories.
 4. matplotlib: Used for programmatic plot generation.
-5. Seaborn: Used for statistical graphics.
-6. Warnings: Used to control warnings in Python.
-7. sklearn: These are simple and efficient tools for predictive data analsis.
+5. Warnings: Used to control warnings in Python.
+6. sklearn: These are simple and efficient tools for predictive data analsis.
 
 ### Data Exploration
 
@@ -124,4 +121,4 @@ Points to keep in mind when working with a machine learning model
 1. random: It generates random output.
 
 ## Acknowledgement
-This data was possible because of the work of [Kuzak Dempsy](https://data.world/kudem).
+This dataset was provided by the work of [Kuzak Dempsy](https://data.world/kudem).
